@@ -1,3 +1,4 @@
+using FluentValidation.Results;
 using TechLibrary.Communication.Requests;
 using TechLibrary.Communication.Responses;
 using TechLibrary.Domain.Entities;
@@ -21,7 +22,8 @@ public class RegisterUserUsecase
     public ResponseRegisteredUserJson Execute(RequestUserJson request)
     {
         ValidateRequest(request);
-        
+
+
         var user = new User
         {
             Email = request.Email,
@@ -42,6 +44,11 @@ public class RegisterUserUsecase
     {
         var validator = new RegisterUserValidator();
         var validationResult = validator.Validate(request);
+
+        var existUserWithEmail = _dbContext.Users.Any(user => user.Email == request.Email);
+        if (existUserWithEmail)
+            validationResult.Errors.Add(
+                new ValidationFailure("Email", "Já existe um usuário com este email"));
 
         if (!validationResult.IsValid)
         {
