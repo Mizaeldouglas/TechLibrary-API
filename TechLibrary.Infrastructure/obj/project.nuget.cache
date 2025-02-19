@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "78hNmpKKImA=",
+  "dgSpecHash": "kduuKpegIvg=",
   "success": true,
   "projectFilePath": "/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/TechLibrary.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/mizaeldouglas/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.data.sqlite.core/8.0.13/microsoft.data.sqlite.core.8.0.13.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.entityframeworkcore/8.0.13/microsoft.entityframeworkcore.8.0.13.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.13/microsoft.entityframeworkcore.abstractions.8.0.13.nupkg.sha512",

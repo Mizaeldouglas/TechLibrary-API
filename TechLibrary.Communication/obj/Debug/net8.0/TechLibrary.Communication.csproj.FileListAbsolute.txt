@@ -13,3 +13,4 @@
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/refint/TechLibrary.Communication.dll
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.pdb
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/ref/TechLibrary.Communication.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.sourcelink.json

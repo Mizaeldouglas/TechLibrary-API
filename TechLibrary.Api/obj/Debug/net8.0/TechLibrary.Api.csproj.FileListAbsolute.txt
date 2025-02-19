@@ -271,3 +271,5 @@
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Api/bin/Debug/net8.0/TechLibrary.Persistence.Abstractions.dll
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Api/bin/Debug/net8.0/TechLibrary.Persistence.Abstractions.pdb
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Api/bin/Debug/net8.0/TechLibrary.Infrastructure.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Api/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Api/obj/Debug/net8.0/TechLibrary.Api.sourcelink.json

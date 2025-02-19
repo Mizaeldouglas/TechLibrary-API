@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TechLibrary.Application.UseCases.Users.Register;
 using TechLibrary.Infrastructure.Data;
+using TechLibrary.Infrastructure.Security.Cryptography;
 using TechLibrary.Persistence.Abstractions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,8 @@ builder.Services.AddDbContext<TechLibraryDbContext>(options =>
 builder.Services.AddScoped<ITechLibraryDbContext, TechLibraryDbContext>();
 builder.Services.AddScoped<RegisterUserUsecase>();
 builder.Services.AddScoped<RegisterUserValidator>();
+builder.Services.AddScoped<BCryptAlgorithm>();
+
 
 var app = builder.Build();
 

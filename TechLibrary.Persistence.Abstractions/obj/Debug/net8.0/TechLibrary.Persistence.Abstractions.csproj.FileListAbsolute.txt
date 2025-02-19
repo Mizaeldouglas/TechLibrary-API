@@ -13,3 +13,4 @@
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Persistence.Abstractions/obj/Debug/net8.0/refint/TechLibrary.Persistence.Abstractions.dll
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Persistence.Abstractions/obj/Debug/net8.0/TechLibrary.Persistence.Abstractions.pdb
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Persistence.Abstractions/obj/Debug/net8.0/ref/TechLibrary.Persistence.Abstractions.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Persistence.Abstractions/obj/Debug/net8.0/TechLibrary.Persistence.Abstractions.sourcelink.json

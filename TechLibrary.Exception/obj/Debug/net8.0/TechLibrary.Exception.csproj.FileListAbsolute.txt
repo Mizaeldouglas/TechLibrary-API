@@ -9,3 +9,4 @@
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/refint/TechLibrary.Exception.dll
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.pdb
 /Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/ref/TechLibrary.Exception.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.sourcelink.json

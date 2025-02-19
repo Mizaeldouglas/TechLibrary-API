@@ -2,6 +2,7 @@ using TechLibrary.Communication.Requests;
 using TechLibrary.Communication.Responses;
 using TechLibrary.Domain.Entities;
 using TechLibrary.Exception;
+using TechLibrary.Infrastructure.Security.Cryptography;
 using TechLibrary.Persistence.Abstractions;
 
 namespace TechLibrary.Application.UseCases.Users.Register;
@@ -9,21 +10,23 @@ namespace TechLibrary.Application.UseCases.Users.Register;
 public class RegisterUserUsecase
 {
     private readonly ITechLibraryDbContext _dbContext;
+    private readonly BCryptAlgorithm _bcryptAlgorithm;
 
-    public RegisterUserUsecase(ITechLibraryDbContext dbContext)
+    public RegisterUserUsecase(ITechLibraryDbContext dbContext, BCryptAlgorithm bcrypAlgorithm)
     {
         _dbContext = dbContext;
+        _bcryptAlgorithm = bcrypAlgorithm;
     }
 
     public ResponseRegisteredUserJson Execute(RequestUserJson request)
     {
         ValidateRequest(request);
-
+        
         var user = new User
         {
             Email = request.Email,
             Name = request.Name,
-            Password = request.Password
+            Password = _bcryptAlgorithm.HashPassword(request.Password)
         };
 
         _dbContext.Users.Add(user);
