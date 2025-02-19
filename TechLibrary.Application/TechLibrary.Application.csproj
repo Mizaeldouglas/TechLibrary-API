@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <ProjectReference Include="..\TechLibrary.Domain\TechLibrary.Domain.csproj" />
+      <ProjectReference Include="..\TechLibrary.Communication\TechLibrary.Communication.csproj" />
+      <ProjectReference Include="..\TechLibrary.Exception\TechLibrary.Exception.csproj" />
+      <ProjectReference Include="..\TechLibrary.Infrastructure\TechLibrary.Infrastructure.csproj" />
+      <ProjectReference Include="..\TechLibrary.Persistence.Abstractions\TechLibrary.Persistence.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="12.0.0-preview1" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/bin/Debug/net8.0/TechLibrary.Domain.deps.json
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/bin/Debug/net8.0/TechLibrary.Domain.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/bin/Debug/net8.0/TechLibrary.Domain.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/TechLibrary.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/TechLibrary.Domain.AssemblyInfoInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/TechLibrary.Domain.AssemblyInfo.cs
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/TechLibrary.Domain.csproj.CoreCompileInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/TechLibrary.Domain.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/refint/TechLibrary.Domain.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/TechLibrary.Domain.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Domain/obj/Debug/net8.0/ref/TechLibrary.Domain.dll

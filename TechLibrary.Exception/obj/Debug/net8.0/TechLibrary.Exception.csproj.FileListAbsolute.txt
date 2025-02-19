@@ -1,0 +1,11 @@
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/bin/Debug/net8.0/TechLibrary.Exception.deps.json
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/bin/Debug/net8.0/TechLibrary.Exception.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/bin/Debug/net8.0/TechLibrary.Exception.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.AssemblyInfoInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.AssemblyInfo.cs
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.csproj.CoreCompileInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/refint/TechLibrary.Exception.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/TechLibrary.Exception.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Exception/obj/Debug/net8.0/ref/TechLibrary.Exception.dll

@@ -1,0 +1,15 @@
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Communication.deps.json
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Communication.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Communication.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Domain.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/bin/Debug/net8.0/TechLibrary.Domain.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.csproj.AssemblyReference.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.AssemblyInfoInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.AssemblyInfo.cs
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.csproj.CoreCompileInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibr.3EC8E55A.Up2Date
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/refint/TechLibrary.Communication.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/TechLibrary.Communication.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Communication/obj/Debug/net8.0/ref/TechLibrary.Communication.dll

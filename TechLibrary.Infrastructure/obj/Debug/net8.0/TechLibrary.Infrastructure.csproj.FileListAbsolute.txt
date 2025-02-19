@@ -1,0 +1,17 @@
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/bin/Debug/net8.0/TechLibrary.Infrastructure.deps.json
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/bin/Debug/net8.0/TechLibrary.Infrastructure.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/bin/Debug/net8.0/TechLibrary.Infrastructure.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/bin/Debug/net8.0/TechLibrary.Domain.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/bin/Debug/net8.0/TechLibrary.Domain.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibrary.Infrastructure.csproj.AssemblyReference.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibrary.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibrary.Infrastructure.AssemblyInfoInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibrary.Infrastructure.AssemblyInfo.cs
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibrary.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibr.F9E7976A.Up2Date
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibrary.Infrastructure.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/refint/TechLibrary.Infrastructure.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/TechLibrary.Infrastructure.pdb
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/obj/Debug/net8.0/ref/TechLibrary.Infrastructure.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/bin/Debug/net8.0/TechLibrary.Persistence.Abstractions.dll
+/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/bin/Debug/net8.0/TechLibrary.Persistence.Abstractions.pdb
