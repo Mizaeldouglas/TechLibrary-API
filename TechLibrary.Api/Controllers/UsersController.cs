@@ -17,35 +17,14 @@ public class UsersController : ControllerBase
         _registerUserUsecase = registerUserUsecase;
     }
 
-    [HttpGet]
-    public IActionResult Get()
-    {
-        return Ok();
-    }
+   
 
     [HttpPost]
     [ProducesResponseType(typeof(ResponseRegisteredUserJson), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseErrorMessageJson), StatusCodes.Status400BadRequest)]
     public IActionResult Post(RequestUserJson request)
     {
-        try
-        {
-            var response = _registerUserUsecase.Execute(request);
-            return Created(string.Empty, response);
-        }
-        catch (ErrorOnValidationException e)
-        {
-            return BadRequest(new ResponseErrorMessageJson
-            {
-                Errors = e.GetErrorMessages()
-            });
-        }
-        catch
-        {
-            return StatusCode(StatusCodes.Status500InternalServerError, new ResponseErrorMessageJson
-            {
-                Errors = new List<string> { "Erro desconhecido" }
-            });
-        }
+        var response = _registerUserUsecase.Execute(request);
+        return Created(string.Empty, response);
     }
 }

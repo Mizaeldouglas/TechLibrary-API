@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using TechLibrary.Api.Filters;
+using TechLibrary.Application.UseCases.Users.Login.DoLogin;
 using TechLibrary.Application.UseCases.Users.Register;
 using TechLibrary.Infrastructure.Data;
 using TechLibrary.Infrastructure.Security.Cryptography;
@@ -10,9 +12,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-// builder.Services.AddDbContext<TechLibraryDbContext>(options =>
-//     options.UseSqlite(builder.Configuration.GetConnectionString("TechLibraryConnection"))
-// );
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<TechLibraryDbContext>(options =>
     options.UseSqlite(connectionString)
@@ -20,8 +19,11 @@ builder.Services.AddDbContext<TechLibraryDbContext>(options =>
 
 builder.Services.AddScoped<ITechLibraryDbContext, TechLibraryDbContext>();
 builder.Services.AddScoped<RegisterUserUsecase>();
+builder.Services.AddScoped<DoLoginUseCase>();
 builder.Services.AddScoped<RegisterUserValidator>();
 builder.Services.AddScoped<BCryptAlgorithm>();
+
+builder.Services.AddMvc(option => option.Filters.Add(new ExceptionFilter()));
 
 
 var app = builder.Build();
@@ -42,4 +44,3 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 app.Run();
-
