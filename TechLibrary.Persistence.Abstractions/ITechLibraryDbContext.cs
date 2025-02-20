@@ -7,6 +7,7 @@ public interface ITechLibraryDbContext
 {
     DbSet<User> Users { get; set; }
     DbSet<Book> Books { get; set; }
+    DbSet<Checkout> Checkouts { get; set; }
 
     int SaveChanges();
     // Task<int> SaveChangesAsync(CancellationToken cancellationToken);

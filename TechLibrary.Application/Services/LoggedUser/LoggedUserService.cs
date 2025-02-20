@@ -5,17 +5,17 @@ using TechLibrary.Infrastructure.Data;
 
 namespace TechLibrary.Application.Services.LoggedUser;
 
-public class LoggedUserService
-{
-    private readonly HttpContext _httpContext;
-    public LoggedUserService(HttpContext httpContext)
+  public class LoggedUserService
     {
-        _httpContext = httpContext;
-    }
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
+        public LoggedUserService(IHttpContextAccessor httpContextAccessor)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
     public User User(TechLibraryDbContext dbContext)
     {
-        var authentication = _httpContext.Request.Headers.Authorization.ToString();
+        var authentication = _httpContextAccessor.HttpContext.Request.Headers["Authorization"].ToString();
 
         var token = authentication["Bearer ".Length..].Trim();
 

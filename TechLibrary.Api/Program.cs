@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using TechLibrary.Api.Filters;
+using TechLibrary.Application.Checkouts;
+using TechLibrary.Application.Services.LoggedUser;
 using TechLibrary.Application.UseCases.Books;
 using TechLibrary.Application.UseCases.Users.Login.DoLogin;
 using TechLibrary.Application.UseCases.Users.Register;
@@ -14,6 +16,9 @@ const string AUTHENTICATION_TYPE = "Bearer";
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor();
+
+
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<TechLibraryDbContext>(options =>
@@ -21,9 +26,12 @@ builder.Services.AddDbContext<TechLibraryDbContext>(options =>
 );
 
 builder.Services.AddScoped<ITechLibraryDbContext, TechLibraryDbContext>();
+builder.Services.AddScoped<LoggedUserService>();
+
 builder.Services.AddScoped<RegisterUserUsecase>();
 builder.Services.AddScoped<DoLoginUseCase>();
 builder.Services.AddScoped<FilterBookUseCase>();
+builder.Services.AddScoped<RegisterBookCheckoutUseCase>();
 builder.Services.AddScoped<RegisterUserValidator>();
 builder.Services.AddScoped<BCryptAlgorithm>();
 
