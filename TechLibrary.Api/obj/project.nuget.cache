@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5P/gu4+ReU4=",
+  "dgSpecHash": "pbw2S84VYlw=",
   "success": true,
   "projectFilePath": "/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Api/TechLibrary.Api.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "/Users/mizaeldouglas/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/Users/mizaeldouglas/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.13/microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.aspnetcore.openapi/8.0.13/microsoft.aspnetcore.openapi.8.0.13.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.24/microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -96,6 +97,8 @@
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.abstractions/8.5.0/microsoft.identitymodel.abstractions.8.5.0.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.5.0/microsoft.identitymodel.jsonwebtokens.8.5.0.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.logging/8.5.0/microsoft.identitymodel.logging.8.5.0.nupkg.sha512",
+    "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.tokens/8.5.0/microsoft.identitymodel.tokens.8.5.0.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.net.stringtools/17.8.3/microsoft.net.stringtools.17.8.3.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",

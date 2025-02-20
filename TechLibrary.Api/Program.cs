@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using TechLibrary.Api.Filters;
+using TechLibrary.Application.UseCases.Books;
 using TechLibrary.Application.UseCases.Users.Login.DoLogin;
 using TechLibrary.Application.UseCases.Users.Register;
 using TechLibrary.Infrastructure.Data;
@@ -7,6 +9,7 @@ using TechLibrary.Infrastructure.Security.Cryptography;
 using TechLibrary.Persistence.Abstractions;
 
 var builder = WebApplication.CreateBuilder(args);
+const string AUTHENTICATION_TYPE = "Bearer";
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -20,8 +23,42 @@ builder.Services.AddDbContext<TechLibraryDbContext>(options =>
 builder.Services.AddScoped<ITechLibraryDbContext, TechLibraryDbContext>();
 builder.Services.AddScoped<RegisterUserUsecase>();
 builder.Services.AddScoped<DoLoginUseCase>();
+builder.Services.AddScoped<FilterBookUseCase>();
 builder.Services.AddScoped<RegisterUserValidator>();
 builder.Services.AddScoped<BCryptAlgorithm>();
+
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition(AUTHENTICATION_TYPE, new OpenApiSecurityScheme
+    {
+        Description = @"JWT Authorization header using the Bearer scheme.
+                      Enter 'Bearer' [space] and then your token in the text input below;
+                      Example: 'Bearer 12345abcdef'",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = AUTHENTICATION_TYPE
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = AUTHENTICATION_TYPE
+                },
+                Scheme = "oauth2",
+                Name = AUTHENTICATION_TYPE,
+                In = ParameterLocation.Header
+            },
+            new List<string>()
+        }
+    });
+});
+
 
 builder.Services.AddMvc(option => option.Filters.Add(new ExceptionFilter()));
 

@@ -12,5 +12,6 @@ public class TechLibraryDbContext : DbContext, ITechLibraryDbContext
     }
 
     public DbSet<User> Users { get; set; }
+    public DbSet<Book> Books { get; set; }
     
 }

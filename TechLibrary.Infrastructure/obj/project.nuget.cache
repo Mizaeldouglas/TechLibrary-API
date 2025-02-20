@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "C9JdRjmn4/o=",
+  "dgSpecHash": "SlxsddXUR6k=",
   "success": true,
   "projectFilePath": "/Users/mizaeldouglas/Programação/WorkSpace-DotNet/NLW/NLWConnect/TechLibrary/TechLibrary.Infrastructure/TechLibrary.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/mizaeldouglas/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/mizaeldouglas/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.13/microsoft.aspnetcore.authentication.jwtbearer.8.0.13.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.bcl.memory/9.0.0/microsoft.bcl.memory.9.0.0.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.data.sqlite.core/8.0.13/microsoft.data.sqlite.core.8.0.13.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.entityframeworkcore/8.0.13/microsoft.entityframeworkcore.8.0.13.nupkg.sha512",
@@ -26,6 +27,8 @@
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.abstractions/8.5.0/microsoft.identitymodel.abstractions.8.5.0.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.5.0/microsoft.identitymodel.jsonwebtokens.8.5.0.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.logging/8.5.0/microsoft.identitymodel.logging.8.5.0.nupkg.sha512",
+    "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/microsoft.identitymodel.tokens/8.5.0/microsoft.identitymodel.tokens.8.5.0.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/mizaeldouglas/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
