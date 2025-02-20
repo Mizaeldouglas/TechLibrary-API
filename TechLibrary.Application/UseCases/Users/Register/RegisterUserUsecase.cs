@@ -4,6 +4,7 @@ using TechLibrary.Communication.Responses;
 using TechLibrary.Domain.Entities;
 using TechLibrary.Exception;
 using TechLibrary.Infrastructure.Security.Cryptography;
+using TechLibrary.Infrastructure.Security.Tokens.Access;
 using TechLibrary.Persistence.Abstractions;
 
 namespace TechLibrary.Application.UseCases.Users.Register;
@@ -34,9 +35,11 @@ public class RegisterUserUsecase
         _dbContext.Users.Add(user);
         _dbContext.SaveChanges();
 
+        var tokenGenerator = new JwtTokenGenerator();
         return new ResponseRegisteredUserJson
         {
-            Name = user.Name
+            Name = user.Name,
+            AccessToken = tokenGenerator.GenerateToken(user)
         };
     }
 
